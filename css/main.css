@@ -1,0 +1,22 @@
+.row{
+ background-color: rgb(43 63 82);
+ height: 50px;
+}
+.hamburger {
+    text-align: right;
+    
+}
+
+.start{
+    background-color: green;
+    height:200px
+}
+
+.cards {
+    height: 100px;
+    width:100px;
+    background-color: rgb(122, 122, 121);
+    float:left
+    border: 1px solid black;
+    border-radius: 50%;
+}
