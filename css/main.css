@@ -1,22 +1,58 @@
 .row{
+    
  background-color: rgb(43 63 82);
  height: 50px;
 }
-.hamburger {
-    text-align: right;
-    
-}
+
 
 .start{
-    background-color: green;
+    
+    background-color: rgb(84, 187, 24);
     height:200px
 }
-
+.portfolio{
+   
+    height: 50px;
+    text-align: center;
+    background-color: rgb(203, 206, 36);
+}
 .cards {
-    height: 100px;
-    width:100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: center;
+ vertical-align: middle
+    ;
+}
+.card {
+    text-align: center;
+    height: 250px;
+    width:250px;
+    margin: 1% 1%;
+    padding:50px;
     background-color: rgb(122, 122, 121);
-    float:left
-    border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 10px;
+}
+
+.about{
+    margin-right: 25px;
+    margin-left: 25px;
+    height:300px;
+    background-color: lawngreen;
+    text-align: center;
+    
+    }
+.contact{
+    height: 350px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: rgb(255, 255, 0);
+    text-align: left;
+}
+
+.footer{
+    height: 300px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: rgb(255, 60, 0);
+    text-align: center;
 }
