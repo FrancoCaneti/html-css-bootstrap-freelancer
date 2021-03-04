@@ -8,7 +8,8 @@
 .start{
     
     background-color: rgb(84, 187, 24);
-    height:200px
+    height:200px;
+    
 }
 .portfolio{
    
@@ -17,18 +18,20 @@
     background-color: rgb(203, 206, 36);
 }
 .cards {
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: 10 auto;
     text-align: center;
- vertical-align: middle
+    padding-left: 15%;
+ 
     ;
 }
 .card {
+
+    vertical-align: middle;
     text-align: center;
     height: 250px;
-    width:250px;
+    width: 250px;
     margin: 1% 1%;
-    padding:50px;
+    padding: 50px;
     background-color: rgb(122, 122, 121);
     border-radius: 10px;
 }
@@ -50,7 +53,7 @@
 }
 
 .footer{
-    height: 300px;
+    height: 200px;
     margin-right: 25px;
     margin-left: 25px;
     background-color: rgb(255, 60, 0);
