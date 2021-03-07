@@ -1,10 +1,10 @@
 
 /*xs*/
 
-@media screen and (max-width:419px) {
+@media screen and (max-width:450px) {
 
 .about{
-    height:300
+    height:450
 }
 
 .footer{
@@ -22,23 +22,19 @@
 
 /*ms*/
 
-@media screen and (max-width:767px){
+@media screen and (max-width:900px){
 
     .about{
-        height:350px
+        height:440px
     }
 
-    .cards {
-        width:30%;
-        padding-left: 25%;
-        padding-right: 25%;
- }
+    
 }
 /*md*/
 
-@media screen and (min-width:768px){
+@media screen and (min-width:901px){
     .about{
-        height:450px;
+        height:310px;
         text-align: center;
     }
    
