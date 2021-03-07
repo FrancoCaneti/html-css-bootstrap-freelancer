@@ -67,8 +67,8 @@
 
 /* Cards*/
 .cards {
-    padding-left: 25%;
-    padding-right: 15%;
+    padding-left: 20%;
+    
 
  
     ;
@@ -138,11 +138,11 @@
     color:white
 }
 
-.footer .box {
+.box-p {
     
     height: 200px;
-    width: 28%;
-    float:left;
+    width: 33%;
+    float: left;
     }
 
  .box:first-child{

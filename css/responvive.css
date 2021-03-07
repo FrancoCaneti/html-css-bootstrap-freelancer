@@ -2,21 +2,44 @@
 /*xs*/
 
 @media screen and (max-width:419px) {
-    .footer .box {
+
+.about{
+    height:300
+}
+
+.footer{
+    height:400px;
+}
+
+    .footer .box-p {
         width: 100%;
-        float:left;
-        margin:0
+        height: 100px;
+        float: none;
+        margin: 0
         }
 
 }
 
 /*ms*/
+
 @media screen and (max-width:767px){
 
-}
+    .about{
+        height:350px
+    }
 
+    .cards {
+        width:30%;
+        padding-left: 25%;
+        padding-right: 25%;
+ }
+}
 /*md*/
 
 @media screen and (min-width:768px){
-
+    .about{
+        height:450px;
+        text-align: center;
+    }
+   
 }
