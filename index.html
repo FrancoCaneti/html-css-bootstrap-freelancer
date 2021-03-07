@@ -15,21 +15,35 @@
 <body>
 
 <header>
-    <!--Navigazione-->
- <div class="container clearfix">
-    <div class="row">
-        <div class=" col-md-offset-1 col-xs-3 col-ms-5 col-md-5"><h3>START BOOTSTRAP</h3></div>
-        <div class=" col-xs-2 col-sm-1 col-md-1 row-t"><h4>PORTFOLIO</h4></div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 row-t "><h4>ABOUT</h4></div>
-        <div class="col-xs-2 col-sm-2 col-md-2  row-t "><h4>CONTACT</h4></div>
-      </div>
- </div>
+    <nav class="navbar navbar-default navbar-p">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="#">START BOOTSTRAP</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 
 <main> 
 
  
-    <div class="container clearfix">
+    <div class="container-p clearfix">
         <div class="start">
             <div ><img class="logo" src="./img/avatar.svg" alt="Logo"></div>
             <div><h1>START BOOTSTRAP</h1></div>
@@ -43,7 +57,7 @@
       </div>
   </div>
  <!--portfolio-->
- <section class="container">
+ <section class="container-p">
      <div class="portfolio">
         <div class="col-xs-12  col-sm-12 col-md-12"><h1>PORTFOLIO</h1></div>
         <div class=" col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-xs-1 col-sm-1 col-md-1 "><hr class="hr-b"></div>
@@ -65,7 +79,7 @@
         </div>    
     </section>  
     
-    <section class="container">
+    <section class="container-p">
          <div class="about">
             <div class="col-xs-12 col-sm-12 col-md-12"><h1>ABOUT</h1></div>
             <div class=" col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-xs-1 col-sm-1 col-md-1 "><hr class="hr"></div>
@@ -90,7 +104,7 @@
            <div class=" col-xs-offset-4 col-sm-offset-4 col-md-offset-4" ></div>
         </div>
     </section>
-    <section class="container">
+    <section class="container-p">
         <div class="contact">
            <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-xs-6  col-sm-6 col-md-6">
                <h3>Name</h3>
@@ -98,6 +112,7 @@
              <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-3"></div> 
            </div>
            <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-xs-6  col-sm-6 col-md-6">
+               <div class="col-xs-offset-3 col-sm-offset-3"></div>
                <h3>Email Adress</h3>
                <hr class=" col-xs-10  col-sm-10 col-md-10 col-xs-offset-2 col-sm-offset-2 col-md-offset-2"> 
               <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-3"></div> 
@@ -111,34 +126,41 @@
                <h3>Message</h3>
                 <hr class=" col-xs-10  col-sm-10 col-md-10 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 ">   
            </div>
-          <div class="col-xs-6 col-sm-6 col-md-6"><button type="button" class="bot-s">Send</button></div>
+          <div class="col-xs6 col-sm-6 col-md-6"><button type="button" class="bot-s">Send</button></div>
         </div>
     </section>
 </main>
 <footer>
-     <section class="container clearfix">
+     <section class="container-p clearfix">
         <div class="footer ">
             <div class="box">
                 <h2>Location</h2>
                    <h4>2215 Jhon Daniel Drive Clarck, Mo 5424</h4>
             </div>
-            <div class=" box"><h2>Around the Web</h2></div>
-
-
-
-
+            <div class=" box "><h2>Around the Web</h2>
+                <button type="button" class="bot-l">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+                <button type="button" class="bot-l">
+                    <i class="fab fa-google-plus-g"></i>
+                </button>
+                <button type="button" class="bot-l">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button type="button" class="bot-l">
+                    <i class="fab fa-linkedin-in"></i>
+                </button>
+            </div>
             <div class="box">
                 <h2>About Freelencer</h2>
-                   <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellendus voluptatem? Aliquam veritatis quaer</h4>
+                   <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellendus voluptatem? Aliquam veritatis quaer</h4> 
              </div>
-             
-            
-            
-            
         </div>
      </section>
-     <section class="container">
-        <div class="social col-xs-12 col-ms-12 col-md-12"></div>
+     <section class="container-p">
+        <div class="copy col-xs-12 col-ms-12 col-md-12">
+            <h5>Copyright © You Website 2021</h5>
+        </div>
     </section>
 </footer>
 </body>

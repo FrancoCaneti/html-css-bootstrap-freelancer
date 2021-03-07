@@ -3,9 +3,9 @@
 
 @media screen and (max-width:419px) {
     .footer .box {
-        height: 200px;
         width: 100%;
-        float:none
+        float:left;
+        margin:0
         }
 
 }
